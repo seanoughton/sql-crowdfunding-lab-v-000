@@ -32,4 +32,4 @@ INSERT INTO projects (title) VALUES
 ('ninth_year'),
 ('tenth_year');
 
-INSERT INTO pledges () VALUES
+INSERT INTO pledges (amount) VALUES

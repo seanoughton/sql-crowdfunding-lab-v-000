@@ -31,3 +31,5 @@ INSERT INTO projects (title) VALUES
 ('eigth_year'),
 ('ninth_year'),
 ('tenth_year');
+
+INSERT INTO pledges () VALUES

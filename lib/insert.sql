@@ -21,3 +21,13 @@ INSERT INTO users(name) VALUES
 ('Katie');
 
 INSERT INTO projects (title) VALUES
+('first_year'),
+('second_year'),
+('third_year'),
+('fourth_year'),
+('fifth_year'),
+('sixth_year'),
+('seventh_year'),
+('eigth_year'),
+('ninth_year'),
+('tenth_year');

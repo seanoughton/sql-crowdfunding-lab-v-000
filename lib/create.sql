@@ -9,6 +9,7 @@ CREATE TABLE projects (
 
 CREATE TABLE users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT
+  name TEXT,
+  age TEXT
 
 );

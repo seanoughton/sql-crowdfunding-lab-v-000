@@ -16,5 +16,6 @@ CREATE TABLE users (
 CREATE TABLE pledges (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   amount INTEGER,
+  user_id INTEGER,
 
 );

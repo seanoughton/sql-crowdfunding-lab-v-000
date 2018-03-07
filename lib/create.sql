@@ -1,7 +1,8 @@
 CREATE TABLE projects (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
-	name TEXT,
-	price INTEGER
+	title TEXT,
+  category TEXT,
+	funding_goal INTEGER
 );
 
 CREATE TABLE users (

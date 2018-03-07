@@ -33,7 +33,12 @@ GROUP BY projects.title HAVING amount_over_goal >= 0
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"Write your SQL query Here"
+"
+SELECT users.name, pledges.amount FROM users
+JOIN pledges ON pledges.user_id = users.id
+GROUP BY users.name
+ORDER BY pledges.amount AND users.name
+"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category

@@ -1,6 +1,7 @@
 CREATE TABLE projects (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  title TEXT
+  title TEXT,
+  category TEXT
 
 
 );

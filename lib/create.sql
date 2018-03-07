@@ -13,6 +13,6 @@ CREATE TABLE users (
 
 CREATE TABLE pledges (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
-	name TEXT,
+	amount INTEGER,
 	price INTEGER
 );

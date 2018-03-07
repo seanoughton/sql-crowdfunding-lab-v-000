@@ -1,1 +1,5 @@
+CREATE TABLE projects (
 
+
+
+);

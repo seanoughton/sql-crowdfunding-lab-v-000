@@ -5,6 +5,9 @@ CREATE TABLE projects (
   funding_goal TEXT,
   start_date TEXT,
   end_date TEXT
+);
 
+CREATE TABLE users (
 
+  
 );

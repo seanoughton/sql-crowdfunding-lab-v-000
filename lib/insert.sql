@@ -19,3 +19,5 @@ INSERT INTO users(name) VALUES
 ('Pacha'),
 ('Ena'),
 ('Katie');
+
+INSERT INTO projects (title) VALUES

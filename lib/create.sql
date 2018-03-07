@@ -10,7 +10,7 @@ CREATE TABLE projects (
 CREATE TABLE users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
-  age TEXT
+  age INTEGER
 );
 
 CREATE TABLE pledges (

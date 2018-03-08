@@ -34,10 +34,10 @@ end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
 "
-SELECT users.name, pledges.amount FROM users
+SELECT users.name, SUM(pledges.amount) AS full_pledge_amount FROM users
 JOIN pledges ON pledges.user_id = users.id
 GROUP BY users.name
-ORDER BY pledges.amount
+ORDER BY full_pledge_amount
 "
 end
 
